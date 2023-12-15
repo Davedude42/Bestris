@@ -1,0 +1,57 @@
+<!-- 
+index.html
+Bestris
+Davedude Games
+Jan 2021
+
+ -->
+
+<html>
+<head>
+<meta name="viewport" content="user-scalable=no"/>
+<title>Bestris</title>
+<style>
+@font-face {
+  font-family: pix;
+  src: url(font.ttf);
+}
+canvas {
+  image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -o-crisp-edges;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+  width: 360px;
+  height: 360px;
+  background-color: none;
+  border-radius: 50%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+body, html {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+	height: 100vh;
+}
+</style>
+</head>
+<body>
+
+<div style="width:360px; height:360px; border-radius: 50%; overflow: hidden; background-color: blue; position: fixed; top: 0px; left: 0px;">
+  <canvas style="z-index: 1; background-color: black;" width="24" height="24" id="game"></canvas>
+  <canvas style="z-index: 10;" width="360" height="360" id="ui"></canvas>
+</canvas>
+</div>
+<script src="vars.js"></script>	
+<script src="UCan 1.2.js"></script>	
+<script src="drawing.js"></script>	
+<script src="piece.js"></script>
+<script src="main.js"></script>	
+
+</body>
+</html>

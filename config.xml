@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://landofdavid.net/bestris" version="1.2.0" height="360" width="360" viewmodes="maximized">
+    <tizen:application id="UZKqNWQei7.Tetris" package="UZKqNWQei7" required_version="2.3.2"/>
+    <author href="http://landofdavid.net/davedudegames" email="davedudegames@gmail.com">Davedude Games</author>
+    <content src="index.html"/>
+    <description>A fun Tetris clone for Samsung Watch&#xD;
+Features:&#xD;
+Move pieces with touch or the bezel!&#xD;
+Rotate pieces in both directions!&#xD;
+Change controls to fit your preferences!&#xD;
+Advance through many levels to get the highest score possible!&#xD;
+Includes your favorite Tetris features including soft drop, hold, and upcoming pieces!</description>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <icon src="B.png"/>
+    <name>Bestris</name>
+    <tizen:profile name="wearable"/>
+    <tizen:setting hwkey-event="enable"/>
+</widget>
